@@ -3,7 +3,7 @@
 -> Import required Python libraries and load training data.                                              
 -> Training data consists of 3910 datapoints, 57 features and 1 target variable.                                                         
 -> No null/NaN values are present in the dataset. So, no need to do any kind of missing value imputation.                     
--> Since not much imbalance in the data and also I didn't used any distance measure based algorithms in this assignment. I skipped upsampling/downsampling techniques.                                                                                                                
+-> Since not much imbalance in the data. I skipped upsampling/downsampling techniques.                                                                                                                
 -> Scaling also skipped since I didn't used distance measure based algorithms.                                            
 -> Plotted pdfs for each feature corresponding to their classes so that I can check if pdfs for each class can be separated well or not.                    
 -> If pdfs for each class for a feature are separated almost in a good way then it can be an important feature.                                    
